@@ -3,7 +3,7 @@ from perceptron.v1.basic_perceptron import Perceptron
 from layer.v1.basic_layer import Layer
 import random
 
-random.seed(13)
+random.seed(14)
 
 def sample_floats(low, high, k=1) -> list[float]:
     """ Return a k-length list of random floats
